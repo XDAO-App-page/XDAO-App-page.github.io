@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /xdao-app/
+Sitemap: https://xdao-app.github.io/sitemap.xml
