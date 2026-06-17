@@ -1,0 +1,107 @@
+{
+ "keyword": "xdao",
+ "h1": "XDAO",
+ "brand": "XDAO",
+ "niche": "tool",
+ "verb": "Explore",
+ "title": "XDAO - Open App",
+ "meta_description": "xdao routes you to the official app for DAO creation, treasury governance, multisig workflows, and multi-chain asset management.",
+ "palette": {
+  "mode": "dark",
+  "bg": "#000000",
+  "accent": "#006BFF",
+  "ink": "#FFFFFF"
+ },
+ "hero_h2": "Create a DAO, govern treasury, and coordinate members",
+ "hero_lead": "xdao opens the official DAO builder for launching organizations, coordinating members, managing treasuries, and routing proposals across supported Web3 networks.",
+ "badge": "DAO Tool",
+ "widget": {
+  "from": "Wallet",
+  "from_net": "EVM / TON",
+  "to": "DAO Treasury",
+  "to_net": "EVM / TON",
+  "action": "Open XDAO App"
+ },
+ "trust": [
+  "Official desktop app",
+  "EVM + TON support",
+  "Telegram Mini App"
+ ],
+ "what_is": "XDAO is a multi-chain DAO framework for creating blockchain organizations, managing shared crypto assets, and approving treasury actions through voting. Its <a href=\"https://docs.xdao.app/\" rel=\"nofollow\">official documentation</a> covers setup, governance tokens, supported blockchains, and security resources.",
+ "how": [
+  {
+   "t": "Open the official app",
+   "d": "Use the verified app domain, choose the desktop EVM route or Telegram route, and connect the wallet you intend to use."
+  },
+  {
+   "t": "Create or select a DAO",
+   "d": "Start a new organization or open an existing workspace before setting treasury and member controls."
+  },
+  {
+   "t": "Set governance rules",
+   "d": "Configure members, voting power, quorum, and proposal rules so treasury actions require approval."
+  },
+  {
+   "t": "Review before signing",
+   "d": "Check the network, wallet prompt, and transaction details before deploying or approving any on-chain action."
+  }
+ ],
+ "points": [
+  {
+   "h": "Official app path",
+   "p": "The action route is <a href=\"https://app.xdao.app/1\" rel=\"nofollow\">app.xdao.app</a>; verify the domain before connecting a wallet or signing transactions."
+  },
+  {
+   "h": "Governance-first treasury",
+   "p": "Teams can coordinate member roles, voting thresholds, proposals, and treasury actions through a shared organization wallet."
+  },
+  {
+   "h": "Multi-chain access",
+   "p": "The official site positions the product for EVM-compatible networks and TON, with desktop, mobile web, and Telegram Mini App access."
+  }
+ ],
+ "eeat": [
+  {
+   "text": "Official XDAO app",
+   "url": "https://app.xdao.app/1"
+  },
+  {
+   "text": "XDAO documentation",
+   "url": "https://docs.xdao.app/"
+  },
+  {
+   "text": "Ethereum DAO overview",
+   "url": "https://ethereum.org/en/dao/"
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is xdao?",
+   "a": "xdao is a Web3 tool for creating and managing DAOs, including treasury workflows, member coordination, governance voting, and shared asset management.",
+   "open": true
+  },
+  {
+   "q": "Is xdao the official app?",
+   "a": "This page is a gateway, not the product itself; the official action URL is <a href=\"https://app.xdao.app/1\" rel=\"nofollow\">app.xdao.app/1</a>.",
+   "open": false
+  },
+  {
+   "q": "What can I do with xdao?",
+   "a": "You can create a DAO, configure governance settings, manage a treasury, coordinate members, and use supported modules such as crowdfunding or DeFi interactions where available.",
+   "open": false
+  },
+  {
+   "q": "Which networks does xdao support?",
+   "a": "The official site lists broad EVM-compatible network support plus TON access for Telegram workflows; check the app and docs for the current live network list.",
+   "open": false
+  },
+  {
+   "q": "What does xdao mean by DAO governance?",
+   "a": "DAO governance means shared rules for proposals, voting, and execution; Ethereum.org provides a neutral <a href=\"https://ethereum.org/en/dao/\" rel=\"nofollow\">DAO overview</a> for the broader concept.",
+   "open": false
+  }
+ ],
+ "official_url": "https://app.xdao.app/1",
+ "official_domain": "app.xdao.app",
+ "footer_note": "This page is not the official app; verify app.xdao.app before connecting a wallet. Educational only, not financial advice."
+}
