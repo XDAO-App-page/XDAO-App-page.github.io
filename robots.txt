@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://xdao-app-page.github.io/sitemap.xml
