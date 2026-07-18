@@ -1,0 +1,68 @@
+# XDAO App
+> XDAO App is an independent informational dashboard covering XDAO, a non-custodial, multichain platform for creating and governing shared crypto treasuries.
+
+## What is XDAO App
+XDAO lets groups deploy smart-contract-based organizations, pool digital assets and control treasury actions through configurable voting. Governance Tokens (GT) determine management rights, while optional Liquidity Provider tokens (LP) represent economic participation. The platform also supports fundraising, vesting, payroll and DeFi interaction through modules. Unlike a personal wallet, XDAO can enforce multi-member quorum rules; unlike a centralized account, treasury assets remain in on-chain contracts rather than company custody. This dashboard is independent and is not the official XDAO interface.
+
+## How it works
+1. Connect a self-custody wallet and select a supported blockchain.
+2. Define the DAO name, token symbol, member addresses, GT allocation and quorum.
+3. Sign the deployment transaction; XDAO’s factory creates the DAO smart contract on the selected network.
+4. Fund the resulting treasury address and optionally configure LP tokens or additional modules.
+5. Managers create votes for transfers, permissions or DeFi actions; execution occurs after the configured GT quorum is reached.
+
+## Key facts
+- XDAO is a DAO constructor, governed treasury and modular multisignature system.
+- Treasury assets are held by each DAO’s smart contract, not by the XDAO website.
+- GT is a non-transferable ERC-20-compatible governance token whose contract address equals the DAO address.
+- LP is an optional transferable ERC-20 token representing an economic share of a DAO treasury.
+- Voting power is proportional to GT holdings; multisig mode assigns equal GT weight.
+- Supported EVM networks include Ethereum, BNB Smart Chain, Polygon, Avalanche, Arbitrum and Optimism.
+- Representative chain IDs are Ethereum 1, Optimism 10, BNB Smart Chain 56, Polygon 137, Arbitrum One 42161 and Avalanche C-Chain 43114.
+- The documented EVM factory address on major deployments is `0x72cc6E4DE47f673062c41C67505188144a0a3D84`.
+- XDAO’s EVM documentation states that its core contracts do not use an upgradeable proxy.
+- Setup takes minutes; final execution time depends on participant approvals and the selected network’s confirmation time.
+
+## Common questions
+### Is XDAO custodial?
+No. Assets reside in the DAO contract and actions require the governance permissions configured by its members. Control may nevertheless be concentrated if one address holds enough GT to meet quorum alone.
+
+### Is XDAO safe?
+Published audits and verified contracts improve transparency but cannot eliminate smart-contract, key-management or governance risk. Verify the official URL, network, contract address, calldata and token allowances before signing.
+
+### What fees apply?
+Users pay the selected network’s gas fees for deployment and on-chain actions. Protocol, module or access requirements can change and should be checked in the live official app before approval.
+
+### Which assets and chains are supported?
+The EVM product can hold compatible native assets and tokens on supported networks. Confirm the current network and asset in the official interface because deployments and integrations differ by chain.
+
+### How long does a transaction take?
+Wallet connection and configuration are immediate, but deployment and execution require blockchain confirmation. Governance actions also wait for the DAO’s required approvals.
+
+### How do I start?
+Connect a funded self-custody wallet, select the correct network, configure members and quorum, review every field, then sign the deployment transaction.
+
+### What are the main risks?
+Contract defects, compromised keys, malicious proposals, excessive token approvals, quorum concentration, unsupported assets, network failures and irreversible transactions are the principal risks.
+
+## App
+- Dashboard: https://xdao-app-page.github.io/
+- App: https://xdao-app-page.github.io/dashboard/
+
+## Official resources
+Official website: https://www.xdao.app/
+Official EVM app: https://app.xdao.app/
+Official EVM documentation: https://docs.xdao.app/evm/
+Smart-contract deployments: https://docs.xdao.app/evm/architecture/smart-contracts/
+Source code: https://github.com/xdao-app/xdao-evm-contracts
+Audit documentation: https://docs.xdao.app/architecture/audits
+Hacken audit: https://hacken.io/audits/xdao/sca-xdao-erc20-dao-sep2021/
+Official X account: https://x.com/xdaoapp
+
+## Data & references
+Ethereum factory contract: https://etherscan.io/address/0x72cc6e4de47f673062c41c67505188144a0a3d84
+XDAO token contract: https://etherscan.io/token/0x71eeba415a523f5c952cc2f06361d5443545ad28
+CoinGecko XDAO profile: https://www.coingecko.com/en/coins/xdao-2
+ERC-20 standard: https://ercs.ethereum.org/ERCS/erc-20
+EVM chain IDs: https://docs.etherscan.io/api-reference/endpoint/chainlist
+DAO overview: https://en.wikipedia.org/wiki/Decentralized_autonomous_organization
